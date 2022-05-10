@@ -30,7 +30,9 @@
           </form>
           <h2 id="display-city"></h2>
           <ul>
-            <li class="day-time" id="day-time">Monday 11:11am</li>
+            <li class="day-time" id="day-time">
+              Last updated: <span id="date"></span>
+            </li>
           </ul>
           <div class="row">
             <div class="col-md-6">
@@ -51,9 +53,11 @@
             </div>
             <div class="col-md-6">
               <ul class="weather-details">
-                <li>Condition: Sunny</li>
-                <li>Humidity: 73%</li>
-                <li>Wind: 3km/h</li>
+                <li>
+                  Condition: <span class="condition" id="condition"></span>
+                </li>
+                <li>Humidity: <span id="humidity">73</span>%</li>
+                <li>Wind: <span id="wind-speed">3</span>km/h</li>
               </ul>
             </div>
           </div>

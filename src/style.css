@@ -22,6 +22,9 @@ li {
   margin: 0;
   padding: 0;
 }
+li:first-letter {
+  text-transform: capitalize;
+}
 img {
   margin-right: 10px;
 }
@@ -51,7 +54,8 @@ img {
 }
 .day-time {
   color: #45a6f5;
-  font-size: 14pt;
+  font-size: 12pt;
+  font-style: italic;
 }
 .degree {
   font-size: 34pt;
@@ -69,6 +73,9 @@ img {
 }
 .weather-details {
   color: #5a6275;
+}
+.condition {
+  text-transform: capitalize;
 }
 .code-link {
   text-decoration: none;
