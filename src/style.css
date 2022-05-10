@@ -1,0 +1,75 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-family: "Poppins", sans-serif;
+  color: #5a6aca;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+h2 {
+  color: #5a6275;
+  padding-top: 10px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+img {
+  margin-right: 10px;
+}
+.weather-app-wrapper {
+  width: 600px;
+  margin: 10px auto;
+}
+.weather-app {
+  padding: 20px;
+  border: 2px solid;
+  border-color: #5a6aca;
+  border-radius: 4px;
+  box-shadow: 5px 5px 10px lightgray;
+}
+.search-text {
+  border-style: solid;
+  border-color: #5a6aca;
+  border-width: 2px;
+  width: 200px;
+}
+.search-button {
+  color: white;
+  background-color: #5a6aca;
+  border-radius: 25px;
+  border-style: none;
+  padding: 5px 10px;
+}
+.day-time {
+  color: #45a6f5;
+  font-size: 14pt;
+}
+.degree {
+  font-size: 34pt;
+  color: #5a6275;
+  position: relative;
+  top: 10px;
+}
+.units {
+  color: #5a6275;
+  position: relative;
+  bottom: 10px;
+}
+.fahrenheit-link {
+  text-decoration: none;
+}
+.weather-details {
+  color: #5a6275;
+}
+.code-link {
+  text-decoration: none;
+}
