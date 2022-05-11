@@ -38,6 +38,7 @@ img {
   border-color: #5a6aca;
   border-radius: 4px;
   box-shadow: 5px 5px 10px lightgray;
+  background-color: lightcyan;
 }
 .search-text {
   border-style: solid;
