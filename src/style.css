@@ -100,3 +100,27 @@ img {
 .code-link {
   text-decoration: none;
 }
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+.weather-forecast-box {
+  border: solid 1px;
+  border-color: #5a6275;
+  border-radius: 4px;
+  box-shadow: 2px 2px 3px;
+  width: 85px;
+  background-color: #45a6f5;
+}
+.weather-forecast-date {
+  font-size: 16px;
+  color: white;
+}
+.weather-forecast-temperature {
+  color: white;
+  font-size: 14px;
+}
+.weather-forecast-temp-min {
+  opacity: 0.6;
+}
