@@ -10,7 +10,7 @@ h1 {
   margin-left: 20px;
 }
 h2 {
-  color: #5a6275;
+  color: white;
   padding-top: 10px;
 }
 ul {
@@ -38,20 +38,26 @@ img {
   border-color: #5a6aca;
   border-radius: 4px;
   box-shadow: 5px 5px 10px lightgray;
-  background-color: lightcyan;
+  background-color: #5a6aca;
 }
 .search-text {
   border-style: solid;
-  border-color: #5a6aca;
+  border-color: #5a6275;
   border-width: 2px;
   width: 200px;
 }
 .search-button {
+  color: #5a6aca;
+  background-color: white;
+  border-radius: 25px;
+  border-style: solid;
+  border-color: white;
+  padding: 2px 8px;
+}
+.search-button:hover {
   color: white;
   background-color: #5a6aca;
-  border-radius: 25px;
-  border-style: none;
-  padding: 5px 10px;
+  border-color: white;
 }
 .day-time {
   color: #45a6f5;
@@ -60,20 +66,33 @@ img {
 }
 .degree {
   font-size: 34pt;
-  color: #5a6275;
+  color: white;
   position: relative;
   top: 10px;
 }
 .units {
-  color: #5a6275;
+  color: white;
   position: relative;
   bottom: 10px;
 }
 .fahrenheit-link {
   text-decoration: none;
+  color: white;
+}
+.fahrenheit-link:hover {
+  text-decoration: none;
+  color: #45a6f5;
+}
+.celsius-link {
+  text-decoration: none;
+  color: white;
+}
+.celsius-link:hover {
+  text-decoration: none;
+  color: #45a6f5;
 }
 .weather-details {
-  color: #5a6275;
+  color: white;
 }
 .condition {
   text-transform: capitalize;
