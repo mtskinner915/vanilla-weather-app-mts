@@ -7,7 +7,7 @@ h1 {
   margin-top: 10px;
   margin-bottom: 0px;
   font-weight: bold;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 h2 {
   color: white;
@@ -29,7 +29,7 @@ img {
   margin-right: 10px;
 }
 .weather-app-wrapper {
-  width: 600px;
+  width: 650px;
   margin: 10px auto;
 }
 .weather-app {
@@ -43,16 +43,19 @@ img {
 .search-text {
   border-style: solid;
   border-color: #5a6275;
-  border-width: 2px;
-  width: 200px;
+  border-width: 1px;
+  width: 250px;
 }
 .search-button {
   color: #5a6aca;
   background-color: white;
   border-radius: 25px;
   border-style: solid;
-  border-color: white;
+  border-color: #5a6275;
+  border-width: 1px;
   padding: 2px 8px;
+  margin-left: 10px;
+  transition: all 200ms ease-in-out;
 }
 .search-button:hover {
   color: white;
@@ -109,7 +112,7 @@ img {
   border: solid 1px;
   border-color: #5a6275;
   border-radius: 4px;
-  box-shadow: 2px 2px 3px;
+  box-shadow: 1px 1px 3px #5a6275;
   width: 85px;
   background-color: #45a6f5;
 }
